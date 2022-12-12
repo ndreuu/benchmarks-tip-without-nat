@@ -1,7 +1,7 @@
 
 (set-logic HORN)
-(declare-fun Z_1005 () Int)
-(declare-fun S_265 (Int) Int)
+(define-fun Z_1005 () Int 0)
+(define-fun S_265 ((x Int)) Int (+ x 1))
 (declare-fun diseqInt (Int Int) Bool)
 (declare-fun unS_349 (Int Int) Bool)
 (declare-fun isZ_247 (Int) Bool)

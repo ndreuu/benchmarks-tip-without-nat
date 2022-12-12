@@ -1,7 +1,7 @@
 
 (set-logic HORN)
-(declare-fun Z_2040 () Int)
-(declare-fun S_466 (Int) Int)
+(define-fun Z_2040 () Int 0)
+(define-fun S_466 ((x Int)) Int (+ x 1))
 (declare-datatypes ((Bool_339 0)) (((false_339) (true_339))))
 (declare-fun diseqBool_156 (Bool_339 Bool_339) Bool)
 (declare-fun isfalse_156 (Bool_339) Bool)

@@ -1,7 +1,7 @@
 
 (set-logic HORN)
-(declare-fun zero_27 () Int)
-(declare-fun succ_27 (Int) Int)
+(define-fun zero_27 () Int 0)
+(define-fun succ_27 ((x Int)) Int (+ x 1))
 (declare-datatypes ((Bool_122 0)) (((false_122) (true_122))))
 (declare-fun diseqBool_54 (Bool_122 Bool_122) Bool)
 (declare-fun isfalse_54 (Bool_122) Bool)
