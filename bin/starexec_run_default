@@ -1,0 +1,14 @@
+#!/bin/bash
+
+HERE="$(pwd)"
+input="$1"
+output="$2/$(basename $1 smt2)out"
+publish="$(dirname "$HERE")"/net6.0
+
+file="$(basename -- $input)"
+path="$(dirname "$HERE")"/"$filename"
+
+$publish/TestProject1 "$input" > "$output" 
+
+cat "$output"
+
